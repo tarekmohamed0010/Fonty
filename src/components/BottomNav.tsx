@@ -57,7 +57,7 @@ export const BottomNav: React.FC = React.memo(() => {
               {isActive && (
                 <motion.div
                   layoutId="bottomNavIndicator"
-                  className={`absolute inset-0 border rounded-full shadow-xs ${
+                  className={`liquid-lens-indicator absolute inset-0 border rounded-full shadow-xs ${
                     isAdminItem
                       ? 'bg-gradient-to-r from-amber-400/20 via-amber-500/25 to-orange-500/20 border-amber-400/50'
                       : 'bg-gradient-to-r from-sky-400/20 via-sky-500/25 to-blue-500/20 border-sky-400/50'
